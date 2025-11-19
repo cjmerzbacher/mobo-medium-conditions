@@ -2,14 +2,11 @@
 This repository contains the code and data for "Optimal medium condition design with Bayesian methods".
 
 ## Folder Structure
-* **Analysis** -
-  Contains the jupyter notebooks with the code used to generate the figures used in the publication as well as for the supplementary figures.
-* **Data** -  
-  Contains the data used to to generate the figures used in the publication as well as for the supplementary figures.
-* **figs** -
-  Contains the figures used in the publication as well the supplementary figures.
-* **optimization** -
-  Contains the complete code to run the simulations and verify the results.
+* **analysis** - Contains the Jupyter notebooks with the code used to generate the figures used in the publication, as well as for the supplementary figures. It also contains the code with which the csv files used in those notebooks were generated from the complete simulation data
+* **data** - Contains the data used to generate the figures in csv format used in the publication as well as for the supplementary figures.
+* **figs** - Contains the figures used in the publication as well the supplementary figures.
+* **optimization** - Contains the complete code to run the simulations and verify the results.
+* **Results** - contains the complete simulation data from which the relevant parts for the figures presented in the publication were extracted
 
 ## Adapting the Method to Your Project
 Currently, it is possible to optimise for any combination of growth (biomass vector), production (of one compound of interest, given by production flux), and medium cost.
